@@ -52,9 +52,8 @@ package main.lessons.lesson_1;
 
 public class TapeEquilibrium {
 
-	public int solution(int[] A) {
+	public int solution(int[] A) {		
 		
-		int[] differences = new int[A.length - 1];
 		int totalSum = 0;
 		int currentTotal = 0;
 
@@ -66,8 +65,8 @@ public class TapeEquilibrium {
 		
 		for (int i = 0; i < A.length - 1; i++) {
 			currentTotal += A[i];
-			differences[i] = Math.abs(currentTotal - (totalSum - currentTotal));
-			minDifference = Math.min(minDifference, differences[i]);
+			int diff = Math.abs(currentTotal - (totalSum - currentTotal));
+			minDifference = Math.min(minDifference, diff);
 		}
 
 		return minDifference;
