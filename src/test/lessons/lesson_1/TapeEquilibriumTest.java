@@ -1,4 +1,4 @@
-package tests.lessons.lesson_2;
+package test.lessons.lesson_1;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,16 +10,17 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import main.lessons.lesson_2.PermCheck;
+import main.lessons.lesson_1.TapeEquilibrium;
+
 
 @RunWith(Parameterized.class)
-public class PermCheckTest {
+public class TapeEquilibriumTest {
 
-	private int[] A;
+	private int[] input;
 	private int expected;
 
-	public PermCheckTest(int[] A, int expected) {
-		this.A = A;
+	public TapeEquilibriumTest(int[] input, int expected) {
+		this.input = input;
 		this.expected = expected;
 	}
 
@@ -27,20 +28,17 @@ public class PermCheckTest {
 	public static Collection<Object[]> data() {
 		Object[][] data = new Object[][] { 
 			//Example test
-			{ new int[] { 4, 1, 3, 2 }, 1 },
+			{ new int[] { 3, 1, 2, 4, 3 }, 1 },
 			//Personalized tests
-			{ new int[] { 5, 4, 3, 2, 1 }, 1 },
-			{ new int[] { 4 }, 0 },
-			{ new int[] { 2, 2, 2 }, 0 },
-			{ new int[] { 4, 3, 2, 1, 1 }, 0 }
+			{ new int[] { 4, 7, 10, 4, 5, 8, 3, 4 }, 3 }
 		};
 		return Arrays.asList(data);
 	}
 
 	@Test
-	public void test() {
-		PermCheck tester = new PermCheck();
-		assertEquals(expected, tester.solution(A));
+	public void testSolution() {
+		TapeEquilibrium tester = new TapeEquilibrium();
+		assertEquals(expected, tester.solution(input));
 	}
 
 }

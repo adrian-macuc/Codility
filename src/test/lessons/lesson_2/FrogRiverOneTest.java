@@ -1,4 +1,4 @@
-package tests.lessons.lesson_2;
+package test.lessons.lesson_2;
 
 import static org.junit.Assert.assertEquals;
 

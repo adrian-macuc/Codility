@@ -1,4 +1,4 @@
-package tests.lessons.lesson_1;
+package test.lessons.lesson_2;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,17 +10,16 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import main.lessons.lesson_1.TapeEquilibrium;
-
+import main.lessons.lesson_2.MissingInteger;
 
 @RunWith(Parameterized.class)
-public class TapeEquilibriumTest {
+public class MissingIntegerTest {
 
-	private int[] input;
+	private int[] A;
 	private int expected;
 
-	public TapeEquilibriumTest(int[] input, int expected) {
-		this.input = input;
+	public MissingIntegerTest(int[] A, int expected) {
+		this.A = A;
 		this.expected = expected;
 	}
 
@@ -28,17 +27,20 @@ public class TapeEquilibriumTest {
 	public static Collection<Object[]> data() {
 		Object[][] data = new Object[][] { 
 			//Example test
-			{ new int[] { 3, 1, 2, 4, 3 }, 1 },
+			{ new int[] { 1, 3, 6, 4, 1, 2 }, 5 },
 			//Personalized tests
-			{ new int[] { 4, 7, 10, 4, 5, 8, 3, 4 }, 3 }
+			{ new int[] { -1, -2, -3, -2, -4 }, 1 },
+			{ new int[] { 2, 3, 1001 }, 1 },
+			{ new int[] { 1, 2, 1001, 3, 5 }, 4 },
+			{ new int[] { 1 }, 2 }
 		};
 		return Arrays.asList(data);
 	}
 
 	@Test
-	public void testSolution() {
-		TapeEquilibrium tester = new TapeEquilibrium();
-		assertEquals(expected, tester.solution(input));
+	public void test() {
+		MissingInteger tester = new MissingInteger();
+		assertEquals(expected, tester.solution(A));
 	}
 
 }

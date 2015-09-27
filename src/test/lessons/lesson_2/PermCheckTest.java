@@ -1,4 +1,4 @@
-package tests.lessons.lesson_2;
+package test.lessons.lesson_2;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,15 +10,15 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import main.lessons.lesson_2.MissingInteger;
+import main.lessons.lesson_2.PermCheck;
 
 @RunWith(Parameterized.class)
-public class MissingIntegerTest {
+public class PermCheckTest {
 
 	private int[] A;
 	private int expected;
 
-	public MissingIntegerTest(int[] A, int expected) {
+	public PermCheckTest(int[] A, int expected) {
 		this.A = A;
 		this.expected = expected;
 	}
@@ -27,19 +27,19 @@ public class MissingIntegerTest {
 	public static Collection<Object[]> data() {
 		Object[][] data = new Object[][] { 
 			//Example test
-			{ new int[] { 1, 3, 6, 4, 1, 2 }, 5 },
+			{ new int[] { 4, 1, 3, 2 }, 1 },
 			//Personalized tests
-			{ new int[] { -1, -2, -3, -2, -4 }, 1 },
-			{ new int[] { 2, 3, 1001 }, 1 },
-			{ new int[] { 1, 2, 1001, 3, 5 }, 4 },
-			{ new int[] { 1 }, 2 }
+			{ new int[] { 5, 4, 3, 2, 1 }, 1 },
+			{ new int[] { 4 }, 0 },
+			{ new int[] { 2, 2, 2 }, 0 },
+			{ new int[] { 4, 3, 2, 1, 1 }, 0 }
 		};
 		return Arrays.asList(data);
 	}
 
 	@Test
 	public void test() {
-		MissingInteger tester = new MissingInteger();
+		PermCheck tester = new PermCheck();
 		assertEquals(expected, tester.solution(A));
 	}
 

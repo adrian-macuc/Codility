@@ -1,4 +1,4 @@
-package tests.lessons.lesson_1;
+package test.lessons.lesson_1;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,20 +10,16 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import main.lessons.lesson_1.FrogImp;
+import main.lessons.lesson_1.PermMissingElem;
 
 @RunWith(Parameterized.class)
-public class FrogImpTest {
+public class PermMissingElemTest {
 
-	private int start;
-	private int end;
-	private int distance;
+	private int[] input;
 	private int expected;
 
-	public FrogImpTest(int start, int end, int distance, int expected) {
-		this.start = start;
-		this.end = end;
-		this.distance = distance;
+	public PermMissingElemTest(int[] input, int expected) {
+		this.input = input;
 		this.expected = expected;
 	}
 
@@ -31,19 +27,18 @@ public class FrogImpTest {
 	public static Collection<Object[]> data() {
 		Object[][] data = new Object[][] { 
 			//Example test
-			{ 10, 85, 30, 3 },
+			{ new int[] { 2, 3, 1, 5 }, 4 },
 			//Personalized tests
-			{ 0, 100, 50, 2 },
-			{ 10, 40, 30, 1 },
-			{ 0, 10001, 10, 1001 }
+			{ new int[] { 1, 2, 4, 5 }, 3 },
+			{ new int[] { 11, 9, 8, 7, 6, 5, 4, 3, 2, 1 }, 10}
 		};
 		return Arrays.asList(data);
 	}
 
 	@Test
 	public void test() {
-		FrogImp tester = new FrogImp();
-		assertEquals(expected, tester.solution(start, end, distance));
+		PermMissingElem tester = new PermMissingElem();
+		assertEquals(expected, tester.solution(input));
 	}
 
 }
