@@ -11,10 +11,13 @@ import test.lessons.lesson_2.FrogRiverOneTest;
 import test.lessons.lesson_2.MaxCountersTest;
 import test.lessons.lesson_2.MissingIntegerTest;
 import test.lessons.lesson_2.PermCheckTest;
+import test.lessons.lesson_4.DistinctTest;
+import test.lessons.lesson_4.NumberOfDiscIntersectionsTest;
 
 @RunWith(Suite.class)
 @SuiteClasses({ FrogImpTest.class, PermMissingElemTest.class, TapeEquilibriumTest.class,
-			    FrogRiverOneTest.class, PermCheckTest.class, MissingIntegerTest.class, MaxCountersTest.class }
+			    FrogRiverOneTest.class, PermCheckTest.class, MissingIntegerTest.class, MaxCountersTest.class,
+			    DistinctTest.class, NumberOfDiscIntersectionsTest.class}
 			 )
 public class AllTests {
 
