@@ -14,4 +14,8 @@ My Java solutions to [Codility](https://codility.com/programmers/lessons/) + JUn
 - [x] [MissingInteger](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_2/MissingInteger.java)
 - [x] [MaxCounters](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_2/MaxCounters.java)
 
-
+##Lesson 4 [Prefix Sums](https://codility.com/programmers/lessons/4)
+- [x] [MaxProductOfThree](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/MaxProductOfThree.java) - ([results link](https://codility.com/demo/results/trainingQTE9KR-8SR/))
+- [x] [Triangle](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/Triangle.java)
+- [x] [Distinct](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/Distinct.java)
+- [x] [NumberOfDiscIntersections](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/NumberOfDiscIntersections.java)
