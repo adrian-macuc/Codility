@@ -15,12 +15,15 @@ import test.lessons.lesson_4.DistinctTest;
 import test.lessons.lesson_4.MaxProductOfThreeTest;
 import test.lessons.lesson_4.NumberOfDiscIntersectionsTest;
 import test.lessons.lesson_4.TriangleTest;
+import test.lessons.lesson_5.NestingTest;
+import test.lessons.lesson_5.StoneWallTest;
 
 @RunWith(Suite.class)
 @SuiteClasses({ FrogImpTest.class, PermMissingElemTest.class, TapeEquilibriumTest.class,
 			    FrogRiverOneTest.class, PermCheckTest.class, MissingIntegerTest.class, MaxCountersTest.class,
-			    MaxProductOfThreeTest.class, DistinctTest.class, TriangleTest.class, NumberOfDiscIntersectionsTest.class}
+			    MaxProductOfThreeTest.class, DistinctTest.class, TriangleTest.class, NumberOfDiscIntersectionsTest.class,
+			    NestingTest.class, StoneWallTest.class}
 			 )
-public class AllTests {
+public class JUnitTestSuite {
 
 }

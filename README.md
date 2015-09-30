@@ -19,3 +19,9 @@ My Java solutions to [Codility](https://codility.com/programmers/lessons/) + JUn
 - [x] Distinct ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/Distinct.java) / [results](https://codility.com/demo/results/training3SQKH6-64N/))
 - [x] Triangle ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/Triangle.java) / [results](https://codility.com/demo/results/trainingMWK7ZW-T63/))
 - [x] NumberOfDiscIntersections ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/NumberOfDiscIntersections.java) / [results](https://codility.com/demo/results/trainingHZ7Q9D-RSV/))
+
+##Lesson 5 [Stacks and Queues](https://codility.com/programmers/lessons/5)
+- [x] Nesting ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_5/Nesting.java) / [results](https://codility.com/demo/results/trainingXFZGB9-RF2/))
+- [x] StoneWall ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_5/StoneWall.java) / [results](https://codility.com/demo/results/training82TM2T-HBT/))
+
+
