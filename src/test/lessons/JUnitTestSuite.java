@@ -11,6 +11,8 @@ import test.lessons.lesson_2.FrogRiverOneTest;
 import test.lessons.lesson_2.MaxCountersTest;
 import test.lessons.lesson_2.MissingIntegerTest;
 import test.lessons.lesson_2.PermCheckTest;
+import test.lessons.lesson_3.CountDivTest;
+import test.lessons.lesson_3.PassingCarsTest;
 import test.lessons.lesson_4.DistinctTest;
 import test.lessons.lesson_4.MaxProductOfThreeTest;
 import test.lessons.lesson_4.NumberOfDiscIntersectionsTest;
@@ -21,6 +23,7 @@ import test.lessons.lesson_5.StoneWallTest;
 @RunWith(Suite.class)
 @SuiteClasses({ FrogImpTest.class, PermMissingElemTest.class, TapeEquilibriumTest.class,
 			    FrogRiverOneTest.class, PermCheckTest.class, MissingIntegerTest.class, MaxCountersTest.class,
+			    CountDivTest.class, PassingCarsTest.class,
 			    MaxProductOfThreeTest.class, DistinctTest.class, TriangleTest.class, NumberOfDiscIntersectionsTest.class,
 			    NestingTest.class, StoneWallTest.class}
 			 )

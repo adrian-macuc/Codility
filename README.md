@@ -14,7 +14,12 @@ My Java solutions to [Codility](https://codility.com/programmers/lessons/) + JUn
 - [x] MissingInteger ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_2/MissingInteger.java) / [results](https://codility.com/demo/results/trainingVJCUUV-8SZ/))
 - [x] MaxCounters ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_2/MaxCounters.java) / [results](https://codility.com/demo/results/training68AZGX-KVR/))
 
-##Lesson 4 [Prefix Sums](https://codility.com/programmers/lessons/4)
+##Lesson 3 [Prefix Sums](https://codility.com/programmers/lessons/3)
+- [x] CountDiv ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_3/CountDiv.java) / [results](https://codility.com/demo/results/trainingU2JCAR-4CD/))
+- [x] PassingCars ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_3/PassingCars.java) / [results](https://codility.com/demo/results/training4Z7RJV-VVZ/))
+
+
+##Lesson 4 [Sorting](https://codility.com/programmers/lessons/4)
 - [x] MaxProductOfThree ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/MaxProductOfThree.java) / [results](https://codility.com/demo/results/trainingQTE9KR-8SR/))
 - [x] Distinct ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/Distinct.java) / [results](https://codility.com/demo/results/training3SQKH6-64N/))
 - [x] Triangle ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/Triangle.java) / [results](https://codility.com/demo/results/trainingMWK7ZW-T63/))
