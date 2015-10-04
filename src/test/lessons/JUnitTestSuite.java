@@ -19,6 +19,8 @@ import test.lessons.lesson_4.DistinctTest;
 import test.lessons.lesson_4.MaxProductOfThreeTest;
 import test.lessons.lesson_4.NumberOfDiscIntersectionsTest;
 import test.lessons.lesson_4.TriangleTest;
+import test.lessons.lesson_5.BracketsTest;
+import test.lessons.lesson_5.FishTest;
 import test.lessons.lesson_5.NestingTest;
 import test.lessons.lesson_5.StoneWallTest;
 
@@ -27,7 +29,7 @@ import test.lessons.lesson_5.StoneWallTest;
 			    FrogRiverOneTest.class, PermCheckTest.class, MissingIntegerTest.class, MaxCountersTest.class,
 			    CountDivTest.class, PassingCarsTest.class, MinAvgTwoSliceTest.class, GenomicRangeQueryTest.class,
 			    MaxProductOfThreeTest.class, DistinctTest.class, TriangleTest.class, NumberOfDiscIntersectionsTest.class,
-			    NestingTest.class, StoneWallTest.class}
+			    NestingTest.class, StoneWallTest.class, BracketsTest.class, FishTest.class}
 			 )
 public class JUnitTestSuite {
 

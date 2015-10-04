@@ -17,8 +17,8 @@ My Java solutions to [Codility](https://codility.com/programmers/lessons/) + JUn
 ##Lesson 3 [Prefix Sums](https://codility.com/programmers/lessons/3)
 - [x] CountDiv ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_3/CountDiv.java) / [results](https://codility.com/demo/results/trainingU2JCAR-4CD/))
 - [x] PassingCars ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_3/PassingCars.java) / [results](https://codility.com/demo/results/training4Z7RJV-VVZ/))
-- [x] MinAvgTwoSlice ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_3/MinAvgTwoSlice.java) / [results](https://codility.com/demo/results/trainingSTZPK6-R46/)
-- [x] GenomicRangeQuery ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_3/GenomicRangeQuery.java) / [results](https://codility.com/demo/results/training38YGAG-96B/)
+- [x] MinAvgTwoSlice ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_3/MinAvgTwoSlice.java) / [results](https://codility.com/demo/results/trainingSTZPK6-R46/))
+- [x] GenomicRangeQuery ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_3/GenomicRangeQuery.java) / [results](https://codility.com/demo/results/training38YGAG-96B/))
 
 ##Lesson 4 [Sorting](https://codility.com/programmers/lessons/4)
 - [x] MaxProductOfThree ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_4/MaxProductOfThree.java) / [results](https://codility.com/demo/results/trainingQTE9KR-8SR/))
@@ -29,5 +29,8 @@ My Java solutions to [Codility](https://codility.com/programmers/lessons/) + JUn
 ##Lesson 5 [Stacks and Queues](https://codility.com/programmers/lessons/5)
 - [x] Nesting ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_5/Nesting.java) / [results](https://codility.com/demo/results/trainingXFZGB9-RF2/))
 - [x] StoneWall ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_5/StoneWall.java) / [results](https://codility.com/demo/results/training82TM2T-HBT/))
+- [x] Brackets ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_5/Brackets.java) / [results](https://codility.com/demo/results/trainingBXEXR4-93Y/))
+- [x] Fish ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_5/Fish.java) / [results](https://codility.com/demo/results/trainingME6FTH-QG5/))
+
 
 
