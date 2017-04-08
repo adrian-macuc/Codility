@@ -32,5 +32,3 @@ My Java solutions to [Codility](https://codility.com/programmers/lessons/) + JUn
 - [x] Brackets ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_5/Brackets.java) / [results](https://codility.com/demo/results/trainingBXEXR4-93Y/))
 - [x] Fish ([code](https://github.com/adrian-macuc/Codility/blob/master/src/main/lessons/lesson_5/Fish.java) / [results](https://codility.com/demo/results/trainingME6FTH-QG5/))
 
-
-
